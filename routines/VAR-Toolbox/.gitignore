@@ -1,0 +1,15 @@
+.DS_Store
+*.tex
+*.nav
+*.bib
+*.out
+*.snm
+*.gz
+*.toc
+*.vrb
+*.aux
+*.log
+*.bbl
+*.blg
+/aux/*
+/v3dot0/[temp]
