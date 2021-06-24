@@ -19,8 +19,6 @@ The estimation is conducted by running the script `run_mcmc`. The output of the 
 
 The figures using the estimated model are generated as follows.
 
-<p align="center">
-
 | Figure    | Matlab Script to Run   |
 |---------- | ---------------------- |
 | Figure 3  | `prior_post_scatter`   |
@@ -31,8 +29,6 @@ The figures using the estimated model are generated as follows.
 | Figure 8  | `state_dep_spillovers` |
 | Figure 9  | `fg_decomposition`     |
 | Figure 10 | `fg_decomposition`     |
-
-</p>
 
 ## Tables
 
