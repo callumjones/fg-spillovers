@@ -19,7 +19,7 @@ The estimation is conducted by running the script `run_mcmc`. The output of the 
 
 The figures using the estimated model are generated as follows.
 
-<center>
+<p align="center">
 
 | Figure    | Matlab Script to Run   |
 |---------- | ---------------------- |
@@ -32,7 +32,7 @@ The figures using the estimated model are generated as follows.
 | Figure 9  | `fg_decomposition`     |
 | Figure 10 | `fg_decomposition`     |
 
-</center>
+</p>
 
 ## Tables
 
