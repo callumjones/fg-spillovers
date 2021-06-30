@@ -4,14 +4,24 @@
 % Journal of Applied Econometrics, 2021
 %
 
+clear all
+clc
+
+%%
+
 path(pathdef) ;
 
 warning('Off','all') ;
 
 addpath('./routines')
 addpath('./routines/solmat')
+addpath(genpath('./routines/VAR-Toolbox/v3dot0/'))
 addpath('./output') 
 addpath('./input')
+
+setup_model
+
+%%
 
 load mhall_05-Mar-2020_estimatechis.mat
 
@@ -24,7 +34,7 @@ params_x_   = [] ;
 params_T_d_ = [] ;
 params_T_f_ = [] ;
 
-burn = 25000 ;
+burn = 50000 ;
 
 for runs=1:maxproc
     params_x_ = [params_x_ ; params_x(burn:end,:,runs)] ; 

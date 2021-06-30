@@ -3,6 +3,9 @@
 % International Spillovers of Forward Guidance Shocks
 % Journal of Applied Econometrics, 2021
 %
+% To generate files needed for figure:
+% Run separately with triggers highxif and lowxif 
+%
 
 clear all
 clc
@@ -47,9 +50,9 @@ FG_ext = 2 ;
 tind = 2009:.25:2014.75;
 pick_q = find(tind==date_for_irf);
 pick_dur = 8 ; % Pick durations of length pick_dur
-highxif = 0 ;
+highxif = 1 ;
 lowxif  = 0 ;
-meanxif = 1 ;
+meanxif = 0 ;
 
 if highxif
     id = find(and(params_T_f_(:,pick_q)==pick_dur, ...

@@ -28,10 +28,14 @@ xx_out(1,:)  = x0';
 load c
 
 df = 1 ;
-
+%keyboard
 SET.estimate_tr = 1;
 
 denominator2 = -prior(xx_out(1,:)) ;
+
+%%
+
+%keyboard
 
 %% DUAL SINGLE-MOVE SAMPLER
 for j=2:N
