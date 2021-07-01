@@ -9,7 +9,7 @@ The paper is available [here](https://callumjones.github.io/files/OpenFG.pdf).
 ## Software Requirements
 
 - The code is written in Matlab and R.
-- [Dynare](https://www.dynare.org/) is used to form the structural equations of the linearized model. The scripts work with version 4.6.0 of Dynare.
+- [Dynare](https://www.dynare.org/) is used to write and extract the structural equations of the linearized model. The scripts work with version 4.6.0 of Dynare.
 - Some figures rely on the use of [Ambrogio Cesa-Bianchi's VAR Toolbox](https://github.com/ambropo/VAR-Toolbox), included in the `/routines` folder.
 
 ## Estimation
