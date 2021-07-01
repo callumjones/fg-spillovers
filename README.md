@@ -2,7 +2,7 @@
 
 by Callum Jones, Mariano Kulish and Daniel M. Rees
 
-Last updated on 24-June-2021.
+Last updated on 30-June-2021.
 
 The paper is available [here](https://callumjones.github.io/files/OpenFG.pdf).
 
