@@ -14,7 +14,7 @@ The paper is available [here](https://callumjones.github.io/files/OpenFG.pdf).
 
 ## Estimation
 
-The estimation is conducted by running the script `run_mcmc` in the `/Matlab` folder. The output of the estimation -- the posterior draws of the parameters and lower bound durations -- are stored in the `output` subfolder under the file `mhall-05-Mar-2020_estimatechis.mat`.
+The estimation is conducted by running the script `run_mcmc` in the `/Matlab` folder. The output of the estimation -- the posterior draws of the parameters and lower bound durations -- are stored in the `/output` subfolder under the file `mhall-05-Mar-2020_estimatechis.mat`.
 
 ## Figures
 
