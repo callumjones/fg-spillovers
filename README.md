@@ -1,4 +1,4 @@
-# Code for "International Spillovers of Forward Guidance Shocks"
+# Data and Code for "International Spillovers of Forward Guidance Shocks"
 
 by Callum Jones, Mariano Kulish and Daniel M. Rees
 
